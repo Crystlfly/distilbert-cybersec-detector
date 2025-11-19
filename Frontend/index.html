@@ -7,20 +7,28 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <!-- Extra bubble -->
+    <div class="extra-bubble"></div>
+
     <div class="container">
         <h1>URL Attack Classifier</h1>
         <div class="card">
             <input type="text" id="urlInput" placeholder="Enter URL here" />
             <button id="analyzeBtn">Analyze URL</button>
+
             <div id="loading" class="hidden">Analyzing...</div>
+
             <div id="result" class="hidden">
                 <p><strong>Extracted Payload:</strong> <span id="payload"></span></p>
                 <p><strong>Attack Type:</strong> <span id="attackType"></span></p>
                 <p><strong>Confidence:</strong> <span id="confidence"></span></p>
             </div>
+
             <div id="error" class="hidden"></div>
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
