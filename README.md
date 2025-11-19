@@ -29,7 +29,7 @@ fetch("https://crystlfly-cybersec-api.hf.space/analyze", { ... })
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 project/
 │── frontend/
